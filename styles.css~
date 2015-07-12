@@ -1,0 +1,52 @@
+html {
+	height: 100%;
+	width: 100%;
+	background: #90ADDA url(smile.svg) no-repeat center;
+	background-size: 16rem;
+	margin: 0;
+}
+body{
+    margin:0;
+}
+#logo {
+    background: url(fang-labs.svg) no-repeat center;
+background-size: scale;
+width: 4rem;
+height: 2rem;
+position: fixed;
+bottom: 1rem;
+right: 1rem;
+}
+#copyright,
+#copy {
+font: .5rem Arial;
+color: #413f24;
+position: fixed;
+bottom: 1rem;
+left: 1rem;
+}
+#copy:hover::after{
+content: ' FANG Labs, LLC. All rights reserved.';
+}
+#pride {
+    background: -moz-linear-gradient( left,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 255, 0, 1) 15%,
+        rgba(0, 255, 0, 1) 30%,
+        rgba(0, 255, 255, 1) 50%,
+        rgba(0, 0, 255, 1) 65%,
+        rgba(255, 0, 255, 1) 80%,
+        rgba(255, 0, 0, 1) 100%);
+    background: -webkit-gradient(linear,  left top,  right top, 
+        color-stop(0%, rgba(255, 0, 0, 1)), 
+        color-stop(15%, rgba(255, 255, 0, 1)),
+        color-stop(30%, rgba(0, 255, 0, 1)),
+        color-stop(50%, rgba(0, 255, 255, 1)),
+        color-stop(65%, rgba(0, 0, 255, 1)),
+        color-stop(80%, rgba(255, 0, 255, 1)),
+        color-stop(100%, rgba(255, 0, 0, 1)));
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 1px;
+}
